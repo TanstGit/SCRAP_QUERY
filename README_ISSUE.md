@@ -53,7 +53,7 @@ left join Part_v_Job g on a.Tracking_No = c.Job_Key          --ADDED to join JOB
  order by a.scrap_Date,a.Serial_No                                              --ORDERS DATA BY SCRAP DATE, JOB and THEN SERIAL NUMBER c.Job_No, *note Job taken out because of tracking number*
 
 
-THE RESULT:
+RESULT:
 
 ERROR: CONVERSTION FAILED WHEN CONVERTING THE CARCHAR VALUE '12092-1' to data type int.
 
